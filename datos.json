@@ -1,0 +1,400 @@
+{
+  "GTT COSTA CARIBE 1": {
+    "CO-LAG": {
+      "nombre": "La Guajira",
+      "ciudadSede": "Barranquilla, Atlántico",
+      "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
+      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
+      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
+      "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+    },
+    "CO-MAG": {
+      "nombre": "Magdalena",
+      "ciudadSede": "Barranquilla, Atlántico",
+      "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
+      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
+      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
+      "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+    },
+    "CO-CES": {
+      "nombre": "Cesar",
+      "ciudadSede": "Barranquilla, Atlántico",
+      "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
+      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
+      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
+      "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+    },
+    "CO-ATL": {
+      "nombre": "Atlántico",
+      "ciudadSede": "Barranquilla, Atlántico",
+      "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
+      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
+      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
+      "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+    }
+  },
+
+
+
+
+  "GTT COSTA CARIBE 2": {
+    "CO-BOL": {
+      "nombre": "Córdoba",
+      "ciudadSede": "Montería, Córdoba",
+      "direccion":"Calle 61 # 7-38 Barrio La Castellana",
+      "municipios": ["Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:","Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
+      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
+      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
+      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+    },
+    "CO-ATL": {
+      "nombre": "Córdoba",
+      "ciudadSede": "Montería, Córdoba",
+      "direccion":"Calle 61 # 7-38 Barrio La Castellana",
+      "municipios": ["Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:", "Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
+      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
+      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
+      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+    },
+    "CO-SUC": {
+      "nombre": "Córdoba",
+      "ciudadSede": "Montería, Córdoba",
+      "direccion":"Calle 61 # 7-38 Barrio La Castellana",
+      "municipios": [ "Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:","Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
+      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
+      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
+      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+    },
+    "CO-COR": {
+      "nombre": "Córdoba",
+      "ciudadSede": "Montería, Córdoba",
+      "direccion":"Calle 61 # 7-38 Barrio La Castellana",
+      "municipios": ["Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:","Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
+      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
+      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
+      "horariosDeAtencion": [ "Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+    }
+  },
+
+
+
+    
+
+  "GTT CENTRO ORIENTE 1": {
+    "CO-SAN": {
+      "nombre": "Santander",
+      "ciudadSede": "Bucaramanga, Santander",
+      "direccion":"Carrera 34 # 54-70 Barrio Cabecera",
+      "municipios": ["Cesar:", "San Alberto", "San Martín", "Pelaya", "Tamalame.", "Aguachica", "Gamarra", "Pailitas", "Rio de Oro","Boyacá:", "Toguí", "Santana", "Covarachía", "San José de Pare", "Chitaraque","Moniquirá","Tipacoque","Antioquia:","Yondó"],
+      "departamentos": ["Santander", "Norte de Santander"],
+      "numerosDeAtencion": ["(607) 691 0453","305 941 32611" ],
+      "horariosDeAtencion": [ "Lunes a Viernes","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+    },
+    "CO-NSA": {
+      "nombre": "Santander",
+      "ciudadSede": "Bucaramanga, Santander",
+      "direccion":"Carrera 34 # 54-70 Barrio Cabecera",
+      "municipios": ["Cesar:", "San Alberto", "San Martín", "Pelaya", "Tamalame.", "Aguachica", "Gamarra", "Pailitas", "Rio de Oro", "Boyacá:", "Toguí", "Santana", "Covarachía", "San José de Pare", "Chitaraque","Moniquirá","Tipacoque", "Antioquia:","Yondó"],
+      "departamentos": ["Santander", "Norte de Santander"],
+      "numerosDeAtencion": ["(607) 691 0453","305 941 32611" ],
+      "horariosDeAtencion": [ "Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m" ]
+    }
+  },
+
+
+
+
+
+  "GTT CENTRO ORIENTE 2": {
+    "CO-CUN": {
+      "nombre": "Cundinamarca",
+      "ciudadSede": "Bogotá, Cundinamarca",
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
+      "municipios": [],
+      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"],   
+      "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+    },
+
+    "CO-DC": {
+      "nombre": "Cundinamarca",
+      "ciudadSede": "Bogotá, Cundinamarca",
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
+      "municipios": [],
+      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"], 
+      "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+    },
+
+    "CO-BOY": {
+      "nombre": "Cundinamarca",
+      "ciudadSede": "Bogotá, Cundinamarca",
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
+      "municipios": [],
+      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"],   
+      "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+    },
+    "CO-AMA": {
+      "nombre": "Cundinamarca",
+      "ciudadSede": "Bogotá, Cundinamarca",
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
+      "municipios": [],
+      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"],   
+      "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+    }
+  },
+
+
+
+
+
+
+
+  "GTT CENTRO ORIENTE 3": {
+    "CO-HUI": {
+      "nombre": "Huila",
+      "ciudadSede": "Neiva,Huila",
+      "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
+      "municipios": [],
+      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
+      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+    },
+    "CO-TOL": {
+      "nombre": "Huila",
+      "ciudadSede": "Neiva,Huila",
+      "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
+      "municipios": [],
+      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
+      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
+      "horariosDeAtencion": ["Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+    },
+    "CO-CAQ": {
+      "nombre": "Huila",
+      "ciudadSede": "Neiva,Huila",
+      "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
+      "municipios": [],
+      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
+      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+    },
+
+    "CO-PUT": {
+      "nombre": "Huila",
+      "ciudadSede": "Neiva,Huila",
+      "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
+      "municipios": [ ],
+      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
+      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+    }
+  },
+
+
+
+
+
+
+  "GTT CENTRO ORIENTE 3.1": {
+    "CO-TOL": {
+      "nombre": "Tolima",
+      "ciudadSede": "Ibagué,Tolima",
+      "direccion":"Calle 10 # 3 - 76 Oficina 306 Edificio Cámara de Comercio",
+      "municipios": [],
+      "departamentos": ["Tolima"],
+      "numerosDeAtencion": ["(608 276 0771)","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+   
+    }
+  },
+
+
+
+
+
+    "GTT OCCIDENTE 1": {
+      "CO-ANT": {
+        "nombre": "Antioquia",
+        "ciudadSede": "Medellín,Antioquia",
+        "direccion":"Carrera 48A# 10 Sur - 42 Barrio La Aguacatala",
+        "municipios": ["Boyacá:","Puerto Boyacá"],
+        "departamentos": ["Antioquia","Chocó"],
+        "numerosDeAtencion": ["(604 204 1235)","305 941 9876" ],
+        "horariosDeAtencion": [ "Lunes - Martes - Jueves","8:00 a.m - 3:00 p.m","Jornada continua" ]
+      },
+
+        "CO-CHO": {
+          "nombre": "Antioquia",
+          "ciudadSede": "Medellín,Antioquia",
+          "direccion":"Carrera 48A# 10 Sur - 42 Barrio La Aguacatala",
+          "municipios": ["Boyacá:","Puerto Boyacá"],
+          "departamentos": ["Antioquia","Chocó"],
+          "numerosDeAtencion": ["(604 204 1235)","305 941 9876" ],
+          "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 3:00 p.m","Jornada continua" ]
+    }
+  },
+
+
+
+
+
+    "GTT OCCIDENTE 2": {
+      "CO-CAU": {
+        "nombre": "Valle del Cauca",
+        "ciudadSede": "Cali,Valle del Cauca",
+        "direccion":"Avenida 4ta Norte #4 -30 Barrio Centenario",
+        "municipios": [ ],
+        "departamentos": ["Valle del Cauca","Cauca"],
+        "numerosDeAtencion": ["(602 349 1202)","305 941 5468" ],
+        "horariosDeAtencion": ["Lunes - Martes - Jueves","1:00 p.m - 4:00 p.m" ]
+      },
+
+        "CO-VAC": {
+          "nombre": "Valle del Cauca",
+          "ciudadSede": "Cali,Valle del Cauca",
+          "direccion":"Avenida 4ta Norte #4 -30 Barrio Centenario",
+          "municipios": [],
+          "departamentos": ["Valle del Cauca","Cauca"],
+          "numerosDeAtencion": ["(602 349 1202)","305 941 5468" ],
+         "horariosDeAtencion": [ "Lunes - Martes - Jueves","1:00 p.m - 4:00 p.m" ]
+      
+      }
+    },
+
+
+
+
+
+
+
+    "GRUPO DE APOYO NARIÑO": {
+      "CO-NAR": {
+        "nombre": "Nariño",
+        "ciudadSede": "Pasto,Nariño",
+        "direccion":"Carrera 24 # 20 - 58 Oficina 209 Centro de Negocios Cristo Rey",
+        "municipios": [ "Alto Putumayo:","San Francisco","Sibundoy","Santiago","Colón"],
+        "departamentos": ["Nariño"],
+        "numerosDeAtencion": ["(602 738 0750)","305 941 5269" ],
+        "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+      
+      }
+    },
+
+
+
+    "GTT ORINOQUIA": {
+      "CO-MET": {
+        "nombre": "Meta",
+        "ciudadSede": "Villavicencio,Meta",
+        "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+        "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+        "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+        "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+        "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+      },
+
+        "CO-ARA": {
+          "nombre": "Meta",
+          "ciudadSede": "Villavicencio,Meta",
+          "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+          "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+          "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+          "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+          "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+        },
+
+          "CO-GUA": {
+            "nombre": "Meta",
+            "ciudadSede": "Villavicencio,Meta",
+            "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+            "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+          },
+
+          "CO-VAU": {
+            "nombre": "Meta",
+            "ciudadSede": "Villavicencio,Meta",
+            "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+            "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+          },
+
+          "CO-CAS": {
+            "nombre": "Meta",
+            "ciudadSede": "Villavicencio,Meta",
+            "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+            "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+          },
+
+          "CO-GUV": {
+            "nombre": "Meta",
+            "ciudadSede": "Villavicencio,Meta",
+            "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+            "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+          },
+
+          "CO-VID": {
+            "nombre": "Meta",
+            "ciudadSede": "Villavicencio,Meta",
+            "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
+            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
+            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
+            "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+      
+      }
+    },
+
+
+
+
+
+    "GTT EJE CAFETERO": {
+      "CO-CAL": {
+        "nombre": "Quindío",
+        "ciudadSede": "Armenia,Quindío",
+        "direccion":"Carrera 17 # 22 Norte - 24 Barrio Laureles",
+        "municipios": ["Valle del Cauca:","Cartago","Alcalá", "Sevilla","Ansermanuevo","Ulloa","Caicedonia","Cundinamarca:","Puerto Salgar"],
+        "departamentos": ["Caldas","Risaralda","Quindío"],
+        "numerosDeAtencion": ["Pendiente","305 941 5255" ],
+        "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+      },
+
+        "CO-RIS": {
+          "nombre": "Quindío",
+          "ciudadSede": "Armenia,Quindío",
+          "direccion":"Carrera 17 # 22 Norte - 24 Barrio Laureles",
+          "municipios": ["Valle del Cauca:","Cartago","Alcalá", "Sevilla","Ansermanuevo","Ulloa","Caicedonia","Cundinamarca:","Puerto Salgar"],
+          "departamentos": ["Caldas","Risaralda","Quindío"],
+          "numerosDeAtencion": ["Pendiente","305 941 5255" ],
+          "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+        },
+
+          "CO-QUI": {
+            "nombre": "Quindío",
+            "ciudadSede": "Armenia,Quindío",
+            "direccion":"Carrera 17 # 22 Norte - 24 Barrio Laureles",
+            "municipios": ["Valle del Cauca:","Cartago","Alcalá", "Sevilla","Ansermanuevo","Ulloa","Caicedonia","Cundinamarca:","Puerto Salgar"],
+            "departamentos": ["Caldas","Risaralda","Quindío"],
+            "numerosDeAtencion": ["Pendiente","305 941 5255" ],
+            "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+          }
+        }
+      }
+    
