@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Mukta';
+    src: url('Mukta-Medium.ttf');
+    font-weight: medium;
+    font-style: normal;
+  }
+
+
+
 @media (min-width: 768px) {
     html {
         font-size: 18px;
@@ -213,103 +222,6 @@ body {
 
 
 
-/*Estilos para el NAV PRINCIPAL*/
-.potencia-logo{
-    float: left;
-    display: flex;
-    justify-content: center;
-    max-height: 50px; /* Ajusta la altura máxima de la imagen a un tamaño más pequeño */
-    width: auto; /* Mantiene la proporción de la imagen */
-    }
-
-    
-
-    .block-content {
-     display: flex; /* Utiliza flexbox para alinear las imágenes */
-     justify-content: space-between; /* Espacia las imágenes uniformemente */
-     align-items: center; /* Centra las imágenes verticalmente */
-     padding: 10px; /* Añade un padding al contenedor */
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra del contenedor */
-    }
-  
-    
-    .invima-logo {
-        float: right;
-        display: flex;
-        justify-content: center;
-        height: 100px;
-        align-items: center;
-        width: auto; /* Mantiene la proporción de la imagen */
-    }
-    
-
-.navbar {
-    font-family: 'Roboto', sans-serif; /*fuente del la navbar */
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(-90deg, #015799, #00aacd);    padding: 10px 0;
-}
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-}
-.navbar a:hover {
-    background-color: #008CBA;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #0D8EBA;
-    min-width: 350px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {
-    background-color: #008CBA;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-
-/*Estilo para el icono Buscar */
-
-.search-icon {
-    position: relative;
-    margin: 0;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.search-icon i {
-    font-size: 1.4rem;
-    color: #fff;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-/*Fin estilo para el icono Buscar */
-
-/*Fin estilo para el NAV PRINCIPAL */
 
 
 
@@ -317,108 +229,6 @@ body {
 
 
 
-/* Estilos para el footer */
-.footer {
-    font-family: "Mukta", sans-serif;
-    background: linear-gradient(-90deg, #015799, #017eb1) !important; /* Fondo de gradiente lineal */
-    color: #ffffff; /* Color del texto */
-    padding: 20px 0; /* Espaciado interior */
-    text-align: center; /* Alineación del texto al centro */
-    width: 100%; /* Abarca completamente el ancho de la página */
-    position: relative; /* Fija el footer en la parte inferior */
-    bottom: 0; /* Coloca el footer al final de la página */
-    left: 0; /* Alinea el footer a la izquierda */
-    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
-}
 
-.footer-container {
-    display: flex; /* Display flex */
-    justify-content: space-between; /* Alinea los elementos con espacio entre ellos */
-    align-items: flex-start;
-    width: 100%;
-    padding: 0 50px;
-    box-sizing: border-box;
-}
-
-.footer-left {
-    flex: 1;
-    padding: 20px;  
-    text-align: left; /* Alinea el texto a la izquierda */
-
-}
-
-.footer-right {
-    flex: 1;
-    max-width: 200px;
-    padding: 20px;    /* Espaciado interno del contenedor */
-    text-align: left; /* Alinea el texto a la izquierda */
-
-
-}
-
-.footer-center {
-    text-align: left; /* Alinea el texto a la izquierda */
-    padding: 20px;    /* Espaciado interno del contenedor */
-    color: white; /* Color del texto */
-    width: 400px; /* Ancho del contenedor */
-}
-
-.footer-logo {
-    width: 250px;
-    margin-bottom: 10px;
-}
-
-
-.footer-left p {
-    margin: 5px 0;
-}
-
-/*Estilo para iconos de redes sociales*/
-.social-icons img {
-    width: 24px;
-    margin-right: 20px;
-}
-/*Fin para iconos redes sociales*/
-
-
-.footer-center ul, .footer-right ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-center ul li a, .footer-right ul li a {
-    color: white;
-    text-decoration: none;
-    margin-bottom: 5px;
-    display: inline-block;
-}
-
-.footer-header a {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-
-
-.footer-bottom {
-    display: flex;
-    justify-content: space-between; /* Alinea los elementos con espacio entre ellos */
-    align-items: center; /* Alinea los elementos verticalmente */
-    padding: 10px 20px; /* Espaciado interior */
-    border-top: 1px solid #ffffff; /* Borde superior */
-
-}
-
-.footer-blanco-logo {
-    max-height: 70px;
-    width: auto;
-    margin-left: 50px;
-}
-
-
-.footer-govco-logo {
-    max-height: 70px;
-    width: auto;
-}
 
 
