@@ -1,7 +1,7 @@
 window.onload = function() {
     let datos;
     let regionSeleccionada = null; // Variable para almacenar la región actualmente seleccionada
-    const defaultTitle = "Seleccione una región para ver las líneas de atención"; // Título por defecto
+    const defaultTitle = "Elija una región para ver las líneas de atención."; // Título por defecto
 
     fetch('datos.json')
         .then(response => response.json())
@@ -12,6 +12,8 @@ window.onload = function() {
             const mapContainer = document.getElementById('map-container');
             const infoContactContainer = document.getElementById('info-contact-container');
             const dynamicTitle = document.getElementById('dynamic-title');
+            const tooltip = document.getElementById('tooltip');
+            const iframe = document.getElementById('region-map'); // Selecciona el iframe
 
             const handleClick = function(event) {
                 event.stopPropagation();
@@ -19,28 +21,54 @@ window.onload = function() {
                 const regionGroup = getRegionGroup(idArea);
 
                 if (regionGroup === regionSeleccionada) {
-                    // Si la región actualmente seleccionada es la misma que la que se hizo clic, deseleccionar
                     regionSeleccionada = null;
                     hideInfoContainers();
-                    resetColors(); // Función para restablecer los colores a los valores originales
-                    animateMapAndInfo(false); // Animación para desplazar el mapa y la información hacia arriba
-                    dynamicTitle.innerText = defaultTitle; // Restaurar el título por defecto
+                    resetColors();
+                    animateMapAndInfo(false);
+                    dynamicTitle.innerText = defaultTitle;
+                    tooltip.style.display = 'none'; // Oculta el tooltip cuando se deselecciona una región
+                    iframe.src = ''; // Limpia la URL del iframe
                 } else {
-                    // Si se hace clic en una región diferente o ninguna está seleccionada
                     regionSeleccionada = regionGroup;
-                    showRegionInfo(regionGroup); // Función para mostrar la información de la región seleccionada
-                    resetColors(); // Restablecer los colores a los valores originales antes de resaltar la nueva región
-                    highlightRegionGroup(regionGroup); // Función para resaltar visualmente la región seleccionada
-                    animateMapAndInfo(true); // Animación para desplazar el mapa y la información hacia abajo
-                    dynamicTitle.innerText = regionGroup; // Cambiar el título a la región seleccionada
+                    showRegionInfo(regionGroup);
+                    resetColors();
+                    highlightRegionGroup(regionGroup);
+                    animateMapAndInfo(true);
+                    dynamicTitle.innerText = regionGroup;
                 }
             };
 
-            const handleMouseOver = function() {
+            const handleMouseOver = function(event) {
                 const idArea = this.getAttribute('id');
                 const regionGroup = getRegionGroup(idArea);
                 if (regionGroup !== regionSeleccionada) {
                     this.setAttribute('fill', '#abcd73');
+                    const title = this.getAttribute('title') || regionGroup;
+                    tooltip.innerText = title;
+                    tooltip.style.display = 'block';
+
+                    // Calcular la posición inicial del tooltip
+                    const areaRect = event.target.getBoundingClientRect();
+                    const mapRect = mapContainer.getBoundingClientRect();
+                    let tipX = event.clientX - mapRect.left - (tooltip.offsetWidth / 2);
+                    let tipY = event.clientY - mapRect.top - tooltip.offsetHeight - 10;
+
+                    // Ajustar la posición si el tooltip se sale por los bordes del contenedor del mapa
+                    if ((tipX + tooltip.offsetWidth) > mapRect.width) {
+                        tipX = mapRect.width - tooltip.offsetWidth - 10; // Ajustar para que no se salga por el borde derecho
+                    }
+                    if (tipX < 0) {
+                        tipX = 10; // Ajustar para que no se salga por el borde izquierdo
+                    }
+                    if ((tipY + tooltip.offsetHeight) > mapRect.height) {
+                        tipY = mapRect.height - tooltip.offsetHeight - 10; // Ajustar para que no se salga por el borde inferior
+                    }
+                    if (tipY < 0) {
+                        tipY = areaRect.bottom - mapRect.top + 10; // Ajustar para que no se salga por el borde superior
+                    }
+
+                    tooltip.style.left = `${tipX}px`;
+                    tooltip.style.top = `${tipY}px`;
                 }
             };
 
@@ -49,6 +77,7 @@ window.onload = function() {
                 const regionGroup = getRegionGroup(idArea);
                 if (regionGroup !== regionSeleccionada) {
                     this.setAttribute('fill', '#139EC8');
+                    tooltip.style.display = 'none';
                 }
             };
 
@@ -67,56 +96,47 @@ window.onload = function() {
             const showRegionInfo = function(group) {
                 const regionData = datos[group];
 
-                // Mostrar información del primer elemento del grupo ya que todos tienen la misma estructura
                 const firstRegionData = regionData[Object.keys(regionData)[0]];
 
                 if (firstRegionData) {
                     document.getElementById('info-container').innerHTML = `
-                        <div class="titulo-container">
-                            <h3>CIUDAD SEDE</h3>
-                            <p><strong>${firstRegionData.ciudadSede ? firstRegionData.ciudadSede.split(',,')[0] : 'No disponible'}</strong></p>
-                            <p>${firstRegionData.direccion ? firstRegionData.direccion : 'No disponible'}</p>
+                    <div class="titulo-container">
+                        <h3>CIUDAD SEDE</h3>
+                        <p><strong>${firstRegionData.ciudadSede ? firstRegionData.ciudadSede.split(',,')[0] : 'No disponible'}</strong></p>
+                        <p>
+                            ${firstRegionData.direccion ? `
+                                <span class="location-icon" onclick="openGoogleMaps('${firstRegionData.direccion}')">
+                                    <img src="img/location2.png" alt="Location Icon" />
+                                </span>
+                                ${firstRegionData.direccion}
+                            ` : 'No disponible'}
+                        </p>
+                    </div>
+                `;
+                
+                document.getElementById('contact-container').innerHTML = `
+                    <div class="contacto">
+                        <div class="horariosDeAtencion">
+                            <h4>HORARIOS DE ATENCIÓN</h4>
+                            <p>${firstRegionData.horariosDeAtencion && firstRegionData.horariosDeAtencion[0] ? firstRegionData.horariosDeAtencion[0] : ''}</p>
+                            <p>${firstRegionData.horariosDeAtencion && firstRegionData.horariosDeAtencion[1] ? firstRegionData.horariosDeAtencion[1] : ''}</p>
+                            <p>${firstRegionData.horariosDeAtencion && firstRegionData.horariosDeAtencion[2] ? firstRegionData.horariosDeAtencion[2] : ''}</p>
                         </div>
-                        <div class="contenedor">
-                            ${firstRegionData.municipios && firstRegionData.municipios.length > 0 ? `
-                                <div class="municipios">
-                                    <h4>Municipios</h4>
-                                    <ul>${firstRegionData.municipios.map(municipio => {
-                                        if (municipio.endsWith(':')) {
-                                            return `<li class="region-name"><span class="icono">▶</span>${municipio}</li>`;
-                                        } else {
-                                            return `<li>${municipio}</li>`;
-                                        }
-                                    }).join('')}</ul>
-                                </div>` : ''}
-                            ${firstRegionData.departamentos && firstRegionData.departamentos.length > 0 ? `
-                                <div class="departamentos">
-                                    <h4>Departamentos</h4>
-                                    <ul>${firstRegionData.departamentos.map(departamento => `<li>${departamento}</li>`).join('')}</ul>
-                                </div>` : ''}
-                        </div>
-                    `;
-                    document.getElementById('contact-container').innerHTML = `
-                        <div class="contacto">
-                            <div class="horariosDeAtencion">
-                                <h4>HORARIOS DE ATENCIÓN WHATSAPP</h4>
-                                <p>${firstRegionData.horariosDeAtencion && firstRegionData.horariosDeAtencion[0] ? firstRegionData.horariosDeAtencion[0] : ''}</p>
-                                <p>${firstRegionData.horariosDeAtencion && firstRegionData.horariosDeAtencion[1] ? firstRegionData.horariosDeAtencion[1] : ''}</p>
-                                <p>${firstRegionData.horariosDeAtencion && firstRegionData.horariosDeAtencion[2] ? firstRegionData.horariosDeAtencion[2] : ''}</p>
-                            </div>
-                        </div>
-                        <div class="contacto-2">
-                            <div class="numerosDeAtencion">
-                                <ul>
-                                    <li><img src="img/Logo Telefono.png" alt="Phone Icon" /> ${firstRegionData.numerosDeAtencion && firstRegionData.numerosDeAtencion[0] ? firstRegionData.numerosDeAtencion[0] : 'No disponible'}</li>
-                                    <li><img src="img/Logo Whatsapp.png" alt="WhatsApp Icon" /> ${firstRegionData.numerosDeAtencion && firstRegionData.numerosDeAtencion[1] ? firstRegionData.numerosDeAtencion[1] : 'No disponible'}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    `;
+                    </div>
+                
+                    <div class="numerosDeAtencion">
+                        <ul>
+                            <li><img src="img/Logo_Telefono.png" alt="Phone Icon" /> ${firstRegionData.numerosDeAtencion && firstRegionData.numerosDeAtencion[0] ? firstRegionData.numerosDeAtencion[0] : 'No disponible'}</li>
+                            <li><img src="img/Logo Whatsapp.png" alt="WhatsApp Icon" /> ${firstRegionData.numerosDeAtencion && firstRegionData.numerosDeAtencion[1] ? firstRegionData.numerosDeAtencion[1] : 'No disponible'}</li>
+                        </ul>
+                    </div>
+                `;
+                
+                    iframe.src = firstRegionData.mapa[0] || ''; // Actualiza la URL del iframe con el primer mapa disponible
                 } else {
                     document.getElementById('info-container').innerHTML = '<p>Información no disponible</p>';
                     document.getElementById('contact-container').innerHTML = '';
+                    iframe.src = ''; // Limpia la URL del iframe si no hay datos
                 }
 
                 showInfoContainers();
@@ -125,6 +145,7 @@ window.onload = function() {
             const hideInfoContainers = function() {
                 document.getElementById('info-container').style.display = 'none';
                 document.getElementById('contact-container').style.display = 'none';
+                iframe.src = ''; // Limpia la URL del iframe
             };
 
             const showInfoContainers = function() {
@@ -134,14 +155,23 @@ window.onload = function() {
 
             const animateMapAndInfo = function(showInfo) {
                 if (showInfo) {
-                    mapContainer.style.transform = 'translateY(50px)'; // Desplazar mapa hacia abajo
-                    infoContactContainer.style.marginTop = '20px'; // Ajustar margen superior del contenedor de información
-                    infoContactContainer.style.marginBottom = '80px'; // Asegurar margen inferior del contenedor de información
+                    mapContainer.style.transform = 'translateX(5%)';
+                    infoContactContainer.style.marginTop = '20px';
+                    infoContactContainer.style.marginBottom = '80px';
                 } else {
-                    mapContainer.style.transform = 'translateY(0)'; // Restablecer posición original del mapa
-                    infoContactContainer.style.marginTop = '20px'; // Restablecer margen superior del contenedor de información
-                    infoContactContainer.style.marginBottom = '20px'; // Restablecer margen inferior del contenedor de información
+                    mapContainer.style.transform = 'translateX(38%)';
+                    infoContactContainer.style.marginTop = '20px';
+                    infoContactContainer.style.marginBottom = '20px';
                 }
+            };
+
+            const getRegionGroup = function(id) {
+                for (const group in datos) {
+                    if (datos[group][id]) {
+                        return group;
+                    }
+                }
+                return null;
             };
 
             areas.forEach(area => {
@@ -149,27 +179,6 @@ window.onload = function() {
                 area.addEventListener('mouseover', handleMouseOver);
                 area.addEventListener('mouseout', handleMouseOut);
             });
-
-            document.addEventListener('click', function(event) {
-                const infoContainer = document.getElementById('info-container');
-                const contactContainer = document.getElementById('contact-container');
-                if (!Array.from(areas).some(area => area.contains(event.target))) {
-                    regionSeleccionada = null;
-                    hideInfoContainers();
-                    resetColors(); // Restablecer los colores si se hace clic fuera de las áreas
-                    animateMapAndInfo(false); // Animación para desplazar el mapa y la información hacia arriba
-                    dynamicTitle.innerText = defaultTitle; // Restaurar el título por defecto
-                }
-            });
         })
-        .catch(error => console.error('Error al cargar el archivo JSON:', error));
-
-    function getRegionGroup(idArea) {
-        for (const group in datos) {
-            if (datos[group][idArea]) {
-                return group;
-            }
-        }
-        return null;
-    }
+        .catch(error => console.error('Error al cargar los datos:', error));
 };

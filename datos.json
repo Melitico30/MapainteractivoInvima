@@ -4,37 +4,38 @@
       "nombre": "La Guajira",
       "ciudadSede": "Barranquilla, Atlántico",
       "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
-      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
-      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
       "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
-      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4493853776576!2d-74.80169472622175!3d11.004870954940994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d9ea5a3f4d9%3A0x9327029bac9d0d3b!2sINVIMA!5e0!3m2!1ses-419!2sco!4v1722434569046!5m2!1ses-419!2sco"]
+
+
     },
     "CO-MAG": {
       "nombre": "Magdalena",
       "ciudadSede": "Barranquilla, Atlántico",
       "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
-      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
-      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
       "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
-      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4493853776576!2d-74.80169472622175!3d11.004870954940994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d9ea5a3f4d9%3A0x9327029bac9d0d3b!2sINVIMA!5e0!3m2!1ses-419!2sco!4v1722434569046!5m2!1ses-419!2sco"]
+
     },
     "CO-CES": {
       "nombre": "Cesar",
       "ciudadSede": "Barranquilla, Atlántico",
       "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
-      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
-      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
       "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
-      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4493853776576!2d-74.80169472622175!3d11.004870954940994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d9ea5a3f4d9%3A0x9327029bac9d0d3b!2sINVIMA!5e0!3m2!1ses-419!2sco!4v1722434569046!5m2!1ses-419!2sco"]
+
     },
     "CO-ATL": {
       "nombre": "Atlántico",
       "ciudadSede": "Barranquilla, Atlántico",
       "direccion": "Carrera 60 #74 -159 Barrio Viejo Prado",
-      "municipios": ["Bolívar:", "Cartagena", "Turbaná", "Soplaviento", "Villanueva", "Santa Catalina", "María la Baja", "Arjona", "Turbaco", "Santa Rosa", "Clemencia", "San Estanislao"],
-      "departamentos": ["Guajira", "Cesar", "Magdalena", "Atlántico"],
       "numerosDeAtencion": ["(605) 316 2030", "30 594 14905"],
-      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"]
+      "horariosDeAtencion": ["Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m"],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.4493853776576!2d-74.80169472622175!3d11.004870954940994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d9ea5a3f4d9%3A0x9327029bac9d0d3b!2sINVIMA!5e0!3m2!1ses-419!2sco!4v1722434569046!5m2!1ses-419!2sco"]
+
     }
   },
 
@@ -46,37 +47,37 @@
       "nombre": "Córdoba",
       "ciudadSede": "Montería, Córdoba",
       "direccion":"Calle 61 # 7-38 Barrio La Castellana",
-      "municipios": ["Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:","Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
-      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
-      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
-      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+      "numerosDeAtencion": ["(605) 3160740/41","305 941 9901" ],
+      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15772.645443956564!2d-75.866263!3d8.770885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2fb9f46874f9%3A0x80d5b412747de9ef!2sINSTITUTO%20NACIONAL%20DE%20VIGILANCIA%20DE%20MEDICAMENTOS%20Y%20ALIMENTOS%20-%20INVIMA!5e0!3m2!1ses-419!2sco!4v1722435547173!5m2!1ses-419!2sco"]
+
     },
     "CO-ATL": {
       "nombre": "Córdoba",
       "ciudadSede": "Montería, Córdoba",
       "direccion":"Calle 61 # 7-38 Barrio La Castellana",
-      "municipios": ["Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:", "Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
-      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
-      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
-      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+      "numerosDeAtencion": ["(605) 3160740/41","305 941 9901" ],
+      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15772.645443956564!2d-75.866263!3d8.770885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2fb9f46874f9%3A0x80d5b412747de9ef!2sINSTITUTO%20NACIONAL%20DE%20VIGILANCIA%20DE%20MEDICAMENTOS%20Y%20ALIMENTOS%20-%20INVIMA!5e0!3m2!1ses-419!2sco!4v1722435547173!5m2!1ses-419!2sco"]
+
     },
     "CO-SUC": {
       "nombre": "Córdoba",
       "ciudadSede": "Montería, Córdoba",
       "direccion":"Calle 61 # 7-38 Barrio La Castellana",
-      "municipios": [ "Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:","Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
-      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
-      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
-      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+      "numerosDeAtencion": ["(605) 3160740/41","305 941 9901" ],
+      "horariosDeAtencion": ["Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15772.645443956564!2d-75.866263!3d8.770885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2fb9f46874f9%3A0x80d5b412747de9ef!2sINSTITUTO%20NACIONAL%20DE%20VIGILANCIA%20DE%20MEDICAMENTOS%20Y%20ALIMENTOS%20-%20INVIMA!5e0!3m2!1ses-419!2sco!4v1722435547173!5m2!1ses-419!2sco"]
+
     },
     "CO-COR": {
       "nombre": "Córdoba",
       "ciudadSede": "Montería, Córdoba",
       "direccion":"Calle 61 # 7-38 Barrio La Castellana",
-      "municipios": ["Antioquia:", "San juan de Urabá", "Arboletes", "San Pedro de Urabá:","Necoclí", "Nechí", "Zaragoza", "Caucasia", "El Bagre"],
-      "departamentos": ["Córdoba", "Sucre", "Bolívar"],
-      "numerosDeAtencion": ["Pendiente","305 941 9901" ],
-      "horariosDeAtencion": [ "Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ]
+      "numerosDeAtencion": ["(605) 3160740/41","305 941 9901" ],
+      "horariosDeAtencion": [ "Lunes a Viernes","8:00 a.m - 11:30 p.m","1:30 p.m. - 5:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15772.645443956564!2d-75.866263!3d8.770885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2fb9f46874f9%3A0x80d5b412747de9ef!2sINSTITUTO%20NACIONAL%20DE%20VIGILANCIA%20DE%20MEDICAMENTOS%20Y%20ALIMENTOS%20-%20INVIMA!5e0!3m2!1ses-419!2sco!4v1722435547173!5m2!1ses-419!2sco"]
+
     }
   },
 
@@ -89,19 +90,19 @@
       "nombre": "Santander",
       "ciudadSede": "Bucaramanga, Santander",
       "direccion":"Carrera 34 # 54-70 Barrio Cabecera",
-      "municipios": ["Cesar:", "San Alberto", "San Martín", "Pelaya", "Tamalame.", "Aguachica", "Gamarra", "Pailitas", "Rio de Oro","Boyacá:", "Toguí", "Santana", "Covarachía", "San José de Pare", "Chitaraque","Moniquirá","Tipacoque","Antioquia:","Yondó"],
-      "departamentos": ["Santander", "Norte de Santander"],
       "numerosDeAtencion": ["(607) 691 0453","305 941 32611" ],
-      "horariosDeAtencion": [ "Lunes a Viernes","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+      "horariosDeAtencion": [ "Lunes a Viernes","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.686222273692!2d-74.06415142502095!3d4.649939695324886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf4224dbc63%3A0xcf720cb32ba58130!2sInvima%20-%20Sede%20Principal!5e0!3m2!1ses-419!2sco!4v1722370625964!5m2!1ses-419!2sco"]
+
     },
     "CO-NSA": {
       "nombre": "Santander",
       "ciudadSede": "Bucaramanga, Santander",
       "direccion":"Carrera 34 # 54-70 Barrio Cabecera",
-      "municipios": ["Cesar:", "San Alberto", "San Martín", "Pelaya", "Tamalame.", "Aguachica", "Gamarra", "Pailitas", "Rio de Oro", "Boyacá:", "Toguí", "Santana", "Covarachía", "San José de Pare", "Chitaraque","Moniquirá","Tipacoque", "Antioquia:","Yondó"],
-      "departamentos": ["Santander", "Norte de Santander"],
       "numerosDeAtencion": ["(607) 691 0453","305 941 32611" ],
-      "horariosDeAtencion": [ "Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m" ]
+      "horariosDeAtencion": [ "Lunes a Viernes", "8:00 a.m - 12:00 p.m", "2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.686222273692!2d-74.06415142502095!3d4.649939695324886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf4224dbc63%3A0xcf720cb32ba58130!2sInvima%20-%20Sede%20Principal!5e0!3m2!1ses-419!2sco!4v1722370625964!5m2!1ses-419!2sco"]
+
     }
   },
 
@@ -113,40 +114,40 @@
     "CO-CUN": {
       "nombre": "Cundinamarca",
       "ciudadSede": "Bogotá, Cundinamarca",
-      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
-      "municipios": [],
-      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"],   
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",  
       "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
-      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.722896036037!2d-74.12218252502105!3d4.6434386953313656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf422ff2519%3A0xe64b4003739854dc!2sInvima%20Montevideo!5e0!3m2!1ses-419!2sco!4v1722432823549!5m2!1ses-419!2sco"]
+
     },
 
     "CO-DC": {
       "nombre": "Cundinamarca",
       "ciudadSede": "Bogotá, Cundinamarca",
       "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
-      "municipios": [],
-      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"], 
       "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
-      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.722896036037!2d-74.12218252502105!3d4.6434386953313656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf422ff2519%3A0xe64b4003739854dc!2sInvima%20Montevideo!5e0!3m2!1ses-419!2sco!4v1722432823549!5m2!1ses-419!2sco"]
+
     },
 
     "CO-BOY": {
       "nombre": "Cundinamarca",
       "ciudadSede": "Bogotá, Cundinamarca",
-      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
-      "municipios": [],
-      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"],   
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",  
       "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
-      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.722896036037!2d-74.12218252502105!3d4.6434386953313656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf422ff2519%3A0xe64b4003739854dc!2sInvima%20Montevideo!5e0!3m2!1ses-419!2sco!4v1722432823549!5m2!1ses-419!2sco"]
+
     },
     "CO-AMA": {
       "nombre": "Cundinamarca",
       "ciudadSede": "Bogotá, Cundinamarca",
-      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",
-      "municipios": [],
-      "departamentos": ["Boyacá", "Bogotá","Cundinam.","Amazonas","San Andrés"],   
+      "direccion":"Carrera 68D # 17a - 21 Barrio Montevideo",   
       "numerosDeAtencion": ["(601) 242 5196","305 941 3215" ],
-      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ]
+      "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:30 a.m - 1:30 p.m","Jornada continua" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.722896036037!2d-74.12218252502105!3d4.6434386953313656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf422ff2519%3A0xe64b4003739854dc!2sInvima%20Montevideo!5e0!3m2!1ses-419!2sco!4v1722432823549!5m2!1ses-419!2sco"]
+
     }
   },
 
@@ -161,38 +162,38 @@
       "nombre": "Huila",
       "ciudadSede": "Neiva,Huila",
       "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
-      "municipios": [],
-      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
-      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
-      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+      "numerosDeAtencion": ["(608) 8681046/55","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.3547502976585!2d-75.28823986782433!3d2.9355782737030567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74672461b7fb%3A0xa10e96ecaa66267c!2sInvima!5e0!3m2!1ses-419!2sco!4v1722433581977!5m2!1ses-419!2sco"]
+
     },
     "CO-TOL": {
       "nombre": "Huila",
       "ciudadSede": "Neiva,Huila",
       "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
-      "municipios": [],
-      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
-      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
-      "horariosDeAtencion": ["Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+      "numerosDeAtencion": ["(608) 8681046/55","305 941 5291" ],
+      "horariosDeAtencion": ["Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.3547502976585!2d-75.28823986782433!3d2.9355782737030567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74672461b7fb%3A0xa10e96ecaa66267c!2sInvima!5e0!3m2!1ses-419!2sco!4v1722433581977!5m2!1ses-419!2sco"]
+
     },
     "CO-CAQ": {
       "nombre": "Huila",
       "ciudadSede": "Neiva,Huila",
       "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
-      "municipios": [],
-      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
-      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
-      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+      "numerosDeAtencion": ["(608) 8681046/55","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.3547502976585!2d-75.28823986782433!3d2.9355782737030567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74672461b7fb%3A0xa10e96ecaa66267c!2sInvima!5e0!3m2!1ses-419!2sco!4v1722433581977!5m2!1ses-419!2sco"]
+
     },
 
     "CO-PUT": {
       "nombre": "Huila",
       "ciudadSede": "Neiva,Huila",
       "direccion":"Calle 18A # 7A - 14 Barrio Campo Núñez",
-      "municipios": [ ],
-      "departamentos": ["Huila", "Tolima","Caquetá","Bajo Putumayo"],
-      "numerosDeAtencion": ["Pendiente","305 941 5291" ],
-      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+      "numerosDeAtencion": ["(608) 8681046/55","305 941 5291" ],
+      "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.3547502976585!2d-75.28823986782433!3d2.9355782737030567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74672461b7fb%3A0xa10e96ecaa66267c!2sInvima!5e0!3m2!1ses-419!2sco!4v1722433581977!5m2!1ses-419!2sco"]
+
     }
   },
 
@@ -206,10 +207,10 @@
       "nombre": "Tolima",
       "ciudadSede": "Ibagué,Tolima",
       "direccion":"Calle 10 # 3 - 76 Oficina 306 Edificio Cámara de Comercio",
-      "municipios": [],
-      "departamentos": ["Tolima"],
       "numerosDeAtencion": ["(608 276 0771)","305 941 5291" ],
-      "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ]
+      "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 12:00 p.m","2:00 p.m. - 4:00 p.m" ],
+      "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.818144782919!2d-75.24404432502224!3d4.444918295529324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c4847c3b4471%3A0x801651c51faa15a!2sINVIMA%20-%20IBAGU%C3%89!5e0!3m2!1ses-419!2sco!4v1722433757249!5m2!1ses-419!2sco"]
+
    
     }
   },
@@ -223,20 +224,20 @@
         "nombre": "Antioquia",
         "ciudadSede": "Medellín,Antioquia",
         "direccion":"Carrera 48A# 10 Sur - 42 Barrio La Aguacatala",
-        "municipios": ["Boyacá:","Puerto Boyacá"],
-        "departamentos": ["Antioquia","Chocó"],
         "numerosDeAtencion": ["(604 204 1235)","305 941 9876" ],
-        "horariosDeAtencion": [ "Lunes - Martes - Jueves","8:00 a.m - 3:00 p.m","Jornada continua" ]
+        "horariosDeAtencion": [ "Lunes - Martes - Jueves","8:00 a.m - 3:00 p.m","Jornada continua" ],
+        "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5063044396697!2d-75.57904689775974!3d6.196731417989888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46831d2d66f699%3A0x5500139cf8e8fa44!2sinvima%20medellin!5e0!3m2!1ses-419!2sco!4v1722433930593!5m2!1ses-419!2sco"]
+
       },
 
         "CO-CHO": {
           "nombre": "Antioquia",
           "ciudadSede": "Medellín,Antioquia",
           "direccion":"Carrera 48A# 10 Sur - 42 Barrio La Aguacatala",
-          "municipios": ["Boyacá:","Puerto Boyacá"],
-          "departamentos": ["Antioquia","Chocó"],
           "numerosDeAtencion": ["(604 204 1235)","305 941 9876" ],
-          "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 3:00 p.m","Jornada continua" ]
+          "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 3:00 p.m","Jornada continua" ],
+          "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5063044396697!2d-75.57904689775974!3d6.196731417989888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46831d2d66f699%3A0x5500139cf8e8fa44!2sinvima%20medellin!5e0!3m2!1ses-419!2sco!4v1722433930593!5m2!1ses-419!2sco"]
+
     }
   },
 
@@ -249,20 +250,20 @@
         "nombre": "Valle del Cauca",
         "ciudadSede": "Cali,Valle del Cauca",
         "direccion":"Avenida 4ta Norte #4 -30 Barrio Centenario",
-        "municipios": [ ],
-        "departamentos": ["Valle del Cauca","Cauca"],
         "numerosDeAtencion": ["(602 349 1202)","305 941 5468" ],
-        "horariosDeAtencion": ["Lunes - Martes - Jueves","1:00 p.m - 4:00 p.m" ]
+        "horariosDeAtencion": ["Lunes - Martes - Jueves","1:00 p.m - 4:00 p.m" ],
+        "mapa":["https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d254884.84094801676!2d-76.538966!3d3.45284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67a974170a9%3A0x55e829cc6d9ac92d!2sInvima%20Cali!5e0!3m2!1ses-419!2sco!4v1722438038341!5m2!1ses-419!2sco"]
+
       },
 
         "CO-VAC": {
           "nombre": "Valle del Cauca",
           "ciudadSede": "Cali,Valle del Cauca",
           "direccion":"Avenida 4ta Norte #4 -30 Barrio Centenario",
-          "municipios": [],
-          "departamentos": ["Valle del Cauca","Cauca"],
           "numerosDeAtencion": ["(602 349 1202)","305 941 5468" ],
-         "horariosDeAtencion": [ "Lunes - Martes - Jueves","1:00 p.m - 4:00 p.m" ]
+         "horariosDeAtencion": [ "Lunes - Martes - Jueves","1:00 p.m - 4:00 p.m" ],
+         "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127442.42043374664!2d-76.6831616566406!3d3.452840300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a67a974170a9%3A0x55e829cc6d9ac92d!2sInvima%20Cali!5e0!3m2!1ses-419!2sco!4v1722434170600!5m2!1ses-419!2sco"]
+
       
       }
     },
@@ -278,10 +279,10 @@
         "nombre": "Nariño",
         "ciudadSede": "Pasto,Nariño",
         "direccion":"Carrera 24 # 20 - 58 Oficina 209 Centro de Negocios Cristo Rey",
-        "municipios": [ "Alto Putumayo:","San Francisco","Sibundoy","Santiago","Colón"],
-        "departamentos": ["Nariño"],
         "numerosDeAtencion": ["(602 738 0750)","305 941 5269" ],
-        "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+        "horariosDeAtencion": [ "Lunes - Miercoles - Viernes","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ],
+        "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.921397247523!2d-77.27904922628312!3d1.2149175619973127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed485ddfd5b2b%3A0xcdb93323843fa378!2sINVIMA%20OFICINA%20209!5e0!3m2!1ses-419!2sco!4v1722434367201!5m2!1ses-419!2sco"]
+
       
       }
     },
@@ -293,70 +294,70 @@
         "nombre": "Meta",
         "ciudadSede": "Villavicencio,Meta",
         "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-        "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-        "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
         "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-        "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+        "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+        "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
       },
 
         "CO-ARA": {
           "nombre": "Meta",
           "ciudadSede": "Villavicencio,Meta",
           "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-          "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-          "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
           "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-          "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+          "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+          "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
         },
 
           "CO-GUA": {
             "nombre": "Meta",
             "ciudadSede": "Villavicencio,Meta",
             "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
             "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+            "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
           },
 
           "CO-VAU": {
             "nombre": "Meta",
             "ciudadSede": "Villavicencio,Meta",
             "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
             "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+            "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
           },
 
           "CO-CAS": {
             "nombre": "Meta",
             "ciudadSede": "Villavicencio,Meta",
             "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
             "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+            "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
           },
 
           "CO-GUV": {
             "nombre": "Meta",
             "ciudadSede": "Villavicencio,Meta",
             "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
             "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+            "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
           },
 
           "CO-VID": {
             "nombre": "Meta",
             "ciudadSede": "Villavicencio,Meta",
             "direccion":"Calle 38 # 31-58 Quinto piso Edificio Centro Bancario",
-            "municipios": ["Boyacá:","Cubara","Pajarito", "Cundinamarca:","Paratebueno","Medina","Guayabetal"],
-            "departamentos": ["Meta","Arauca","Guainía","Vaupés","Casanare","Guaviare","Vichada"],
             "numerosDeAtencion": ["(608 681 8737)","305 941 5292" ],
-            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ]
+            "horariosDeAtencion": [ "Lunes - Viernes","8:00 a.m - 4:00 p.m" ],
+        "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47713.54378037461!2d-73.65436479901395!3d4.152234366287079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2db9905599c7%3A0x8ac3a8734bbb4f38!2sINVIMA%20VILLAVICENCIO!5e0!3m2!1ses-419!2sco!4v1722372659867!5m2!1ses-419!2sco"]
+
       
       }
     },
@@ -369,31 +370,31 @@
       "CO-CAL": {
         "nombre": "Quindío",
         "ciudadSede": "Armenia,Quindío",
-        "direccion":"Carrera 17 # 22 Norte - 24 Barrio Laureles",
-        "municipios": ["Valle del Cauca:","Cartago","Alcalá", "Sevilla","Ansermanuevo","Ulloa","Caicedonia","Cundinamarca:","Puerto Salgar"],
-        "departamentos": ["Caldas","Risaralda","Quindío"],
-        "numerosDeAtencion": ["Pendiente","305 941 5255" ],
-        "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+        "direccion":"Armenia, Quindío Carrera 17 # 22 Norte - 24 Barrio Laureles",
+        "numerosDeAtencion": ["(606)7320110","305 941 5255" ],
+        "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ],
+        "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.686222273692!2d-74.06415142502095!3d4.649939695324886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf4224dbc63%3A0xcf720cb32ba58130!2sInvima%20-%20Sede%20Principal!5e0!3m2!1ses-419!2sco!4v1722370625964!5m2!1ses-419!2sco"]
+
       },
 
         "CO-RIS": {
           "nombre": "Quindío",
           "ciudadSede": "Armenia,Quindío",
-          "direccion":"Carrera 17 # 22 Norte - 24 Barrio Laureles",
-          "municipios": ["Valle del Cauca:","Cartago","Alcalá", "Sevilla","Ansermanuevo","Ulloa","Caicedonia","Cundinamarca:","Puerto Salgar"],
-          "departamentos": ["Caldas","Risaralda","Quindío"],
-          "numerosDeAtencion": ["Pendiente","305 941 5255" ],
-          "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+          "direccion":"Armenia, Quindío Carrera 17 # 22 Norte - 24 Barrio Laureles",
+          "numerosDeAtencion": ["(606)7320110","305 941 5255" ],
+          "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ],
+          "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.686222273692!2d-74.06415142502095!3d4.649939695324886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf4224dbc63%3A0xcf720cb32ba58130!2sInvima%20-%20Sede%20Principal!5e0!3m2!1ses-419!2sco!4v1722370625964!5m2!1ses-419!2sco"]
+
         },
 
           "CO-QUI": {
             "nombre": "Quindío",
             "ciudadSede": "Armenia,Quindío",
-            "direccion":"Carrera 17 # 22 Norte - 24 Barrio Laureles",
-            "municipios": ["Valle del Cauca:","Cartago","Alcalá", "Sevilla","Ansermanuevo","Ulloa","Caicedonia","Cundinamarca:","Puerto Salgar"],
-            "departamentos": ["Caldas","Risaralda","Quindío"],
-            "numerosDeAtencion": ["Pendiente","305 941 5255" ],
-            "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ]
+            "direccion":"Armenia, Quindío Carrera 17 # 22 Norte - 24 Barrio Laureles",
+            "numerosDeAtencion": ["(606)7320110","305 941 5255" ],
+            "horariosDeAtencion": [ "Lunes - Jueves","8:00 a.m - 12:00 p.m","2:00 p.m - 4:00 p.m" ],
+            "mapa":["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.686222273692!2d-74.06415142502095!3d4.649939695324886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bf4224dbc63%3A0xcf720cb32ba58130!2sInvima%20-%20Sede%20Principal!5e0!3m2!1ses-419!2sco!4v1722370625964!5m2!1ses-419!2sco"]
+
           }
         }
       }
