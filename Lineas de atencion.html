@@ -3,22 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lineas de atencion | INVIMA</title>
+    <title>Líneas de Atención | INVIMA</title>
     <link rel="stylesheet" href="styles.css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="img/Check Invima.png" type="image/x-icon">
-</head>
+
 <body>
     <div id="title-wrapper">
         <div id="title-container" class="title-container">
-            <h3 id="dynamic-title" class="custom-title">Elija una región para ver las líneas de atención.
-
-
-
-
-
-
-            </h3>
+            <h3 id="dynamic-title" class="custom-title">Elija una región para ver las líneas de atención.</h3>
         </div>
     </div>
     
@@ -168,17 +161,37 @@
    </svg>
    <div id="region-name"></div>
 
-   <div id="info-contact-container">
-       <div id="combined-container">
-           <div id="info-container" style="display:none;"></div>
-           <div id="contact-container" class="contacto"></div>
-       </div>
-       <iframe id="region-map" src="" width="650" height="445" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
-       <div id="tooltip"></div>
-   </div>
-   
-   
+   <div id="main-container">
+      <div id="info-contact-container">
+          <div id="combined-container">
+              <div id="info-container" style="display:none;"></div>
+              <div id="contact-container" class="contacto"></div>
+          </div>
+                    <iframe id="region-map" src="" width="650" height="425" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"></iframe>
 
-<script src="script/index.js"></script>
+      </div>
+      <!-- Nuevo contenedor para agrupar el mapa y los contenedores de booking y jurisdicción -->
+      <div id="map-and-jurisdiction-container">
+          
+          <div id="bookingJurisdictionContainer">
+              <div id="bookingContainer">
+                  <h3>Enlace para reservar Citas:</h3>
+                  <a id="enlaceBooking" href="#" target="_blank">Reserve su cita dando clic aquí</a>
+              </div>
+  
+              <div id="jurisdictionContainer">
+                  <h3>Jurisdicción:</h3>
+                  <p id="jurisdiccion">Información de la jurisdicción aquí.</p>
+              </div>
+          </div>
+      </div>
+  
+      <div id="tooltip"></div>
+  </div>
+  
+  <script src="script/index.js"></script>
+  
+  
+   
 </body>
 </html>
